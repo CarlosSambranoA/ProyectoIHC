@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "393573348923",
+    "firebase_url": "https://qhalikai-5d449.firebaseio.com",
+    "project_id": "qhalikai-5d449",
+    "storage_bucket": "qhalikai-5d449.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393573348923:android:d66a833e635487f0",
+        "android_client_info": {
+          "package_name": "com.example.avance.qhalikayv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393573348923-p1880ul8t8orpo310c37i8o7lip4j2j8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "393573348923-p1880ul8t8orpo310c37i8o7lip4j2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQbX1gjD4gYwRhe5wj3g-o_BVpZQHbnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
