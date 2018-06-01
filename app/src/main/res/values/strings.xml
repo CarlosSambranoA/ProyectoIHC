@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QhaliKay</string>
+    <string name="inicio">Inicio</string>
+    <string name="calorias">Calorias</string>
+    <string name="comida">Comidas</string>
+    <string name="ejercicios">Ejercicio</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="actividad2">Login</string>
+    <string name="vegetal1">Brocoli</string>
+    <string name="vegetal2">Berenjena</string>
+    <string name="vegetal3">Zanahoria</string>
+    <string name="vegetal4">Espinaca</string>
+    <string name="vegetal5">Pimiento</string>
+    <string name="verMas">ver más</string>
+</resources>

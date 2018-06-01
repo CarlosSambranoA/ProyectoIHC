@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".Vegetales">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/botonInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/inicio" />
+
+        <ImageButton
+            android:id="@+id/botonCalorias"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botonSeleccionado"
+            app:srcCompat="@drawable/calorias" />
+
+        <ImageButton
+            android:id="@+id/botonComidas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/comida" />
+
+        <ImageButton
+            android:id="@+id/botonEjercicios"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/ejercicio" />
+
+        <ImageButton
+            android:id="@+id/botonAyuda"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/ayuda" />
+
+        <ImageButton
+            android:id="@+id/botonSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/salir" />
+
+    </LinearLayout>
+</RelativeLayout>

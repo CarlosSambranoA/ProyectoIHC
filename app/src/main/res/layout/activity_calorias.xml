@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".Calorias">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/botonInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/inicio" />
+
+        <ImageButton
+            android:id="@+id/botonCalorias"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botonSeleccionado"
+            app:srcCompat="@drawable/calorias" />
+
+        <ImageButton
+            android:id="@+id/botonComidas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/comida" />
+
+        <ImageButton
+            android:id="@+id/botonEjercicios"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/ejercicio" />
+
+        <ImageButton
+            android:id="@+id/botonAyuda"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/ayuda" />
+
+        <ImageButton
+            android:id="@+id/botonSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/botones"
+            app:srcCompat="@drawable/salir" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/carruselVegetales"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta1"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true">
+                <!--By Mark Gurney [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons -->
+                <ImageView
+                    android:id="@+id/brocoli"
+                    android:layout_width="100dp"
+                    android:layout_height="105dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/brocoli" />
+
+                <TextView
+                    android:id="@+id/textoVegetal"
+                    android:layout_width="101dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="#8c000000"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/vegetal1"
+                    android:textColor="#ffe3e3e3"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta2"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true">
+                <!--By Mark Gurney [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons -->
+                <ImageView
+                    android:id="@+id/berenjena"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/berenjena" />
+
+                <TextView
+                    android:id="@+id/textoVegetal2"
+                    android:layout_width="101dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="#8c000000"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/vegetal2"
+                    android:textColor="#ffe3e3e3"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta3"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true">
+                <!--By Mark Gurney [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons -->
+                <ImageView
+                    android:id="@+id/zanahoria"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/zanahoria" />
+
+                <TextView
+                    android:id="@+id/textoVegetal3"
+                    android:layout_width="101dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="#8c000000"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/vegetal3"
+                    android:textColor="#ffe3e3e3"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta4"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/espinaca"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/espinaca" />
+
+                <TextView
+                    android:id="@+id/textoVegetal4"
+                    android:layout_width="101dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="#8c000000"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/vegetal4"
+                    android:textColor="#ffe3e3e3"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta5"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/pimiento"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pimiento" />
+
+                <TextView
+                    android:id="@+id/textoVegetal5"
+                    android:layout_width="101dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="#8c000000"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/vegetal5"
+                    android:textColor="#ffe3e3e3"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/labelVegetales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="32dp"
+        android:text="Vegetales"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vegetalesMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/carruselVegetales"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-67dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/verMas"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="18sp" />
+
+</RelativeLayout>
