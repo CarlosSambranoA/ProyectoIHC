@@ -91,8 +91,7 @@
                     android:id="@+id/brocoli"
                     android:layout_width="100dp"
                     android:layout_height="105dp"
-                    android:adjustViewBounds="true"
-                    android:src="@drawable/brocoli" />
+                    android:adjustViewBounds="true"/>
 
                 <TextView
                     android:id="@+id/textoVegetal"
@@ -120,8 +119,7 @@
                 <ImageView
                     android:id="@+id/berenjena"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/berenjena" />
+                    android:layout_height="100dp" />
 
                 <TextView
                     android:id="@+id/textoVegetal2"
@@ -149,8 +147,7 @@
                 <ImageView
                     android:id="@+id/zanahoria"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/zanahoria" />
+                    android:layout_height="100dp" />
 
                 <TextView
                     android:id="@+id/textoVegetal3"
@@ -179,8 +176,7 @@
                     android:id="@+id/espinaca"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@android:color/white"
-                    android:src="@drawable/espinaca" />
+                    android:background="@android:color/white" />
 
                 <TextView
                     android:id="@+id/textoVegetal4"
@@ -208,8 +204,7 @@
                 <ImageView
                     android:id="@+id/pimiento"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/pimiento" />
+                    android:layout_height="100dp" />
 
                 <TextView
                     android:id="@+id/textoVegetal5"
