@@ -19,7 +19,7 @@ android {
     buildToolsVersion '27.0.3'
     productFlavors {
     }
-    buildscript { repositories {} }
+
 }
 
 dependencies {
@@ -38,7 +38,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-storage:0.6.0'
 
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
-    implementation 'com.google.android.gms:play-services-auth:11.6.2'
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
