@@ -37,15 +37,15 @@ public class Calorias extends AppCompatActivity implements View.OnClickListener 
         storage = FirebaseStorage.getInstance().getReference();
         //data = FirebaseDatabase.getInstance().getReference();
 
-        imagenVegetal[0] = (ImageView)(ImageView)findViewById(R.id.brocoli);
+        imagenVegetal[0] = (ImageView)findViewById(R.id.brocoli);
         imagenVegetal[0].setOnClickListener(this);
-        imagenVegetal[1] = (ImageView)(ImageView)findViewById(R.id.berenjena);
+        imagenVegetal[1] = (ImageView)findViewById(R.id.berenjena);
         imagenVegetal[1].setOnClickListener(this);
-        imagenVegetal[2] = (ImageView)(ImageView)findViewById(R.id.zanahoria);
+        imagenVegetal[2] = (ImageView)findViewById(R.id.zanahoria);
         imagenVegetal[2].setOnClickListener(this);
-        imagenVegetal[3] = (ImageView)(ImageView)findViewById(R.id.espinaca);
+        imagenVegetal[3] = (ImageView)findViewById(R.id.espinaca);
         imagenVegetal[3].setOnClickListener(this);
-        imagenVegetal[4] = (ImageView)(ImageView)findViewById(R.id.pimiento);
+        imagenVegetal[4] = (ImageView)findViewById(R.id.pimiento);
         imagenVegetal[4].setOnClickListener(this);
 
 

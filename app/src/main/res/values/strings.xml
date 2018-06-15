@@ -13,4 +13,12 @@
     <string name="vegetal4">Espinaca</string>
     <string name="vegetal5">Pimiento</string>
     <string name="verMas">ver más</string>
+    <string name="facebook_app_id">352386961952149</string>
+    <string name="fb_login_protocol_scheme">fb352386961952149</string>
+    <string name="not_log_in">No se pudo iniciar sesión</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo revocar el acceso</string>
+    <string name="not_firebase_auth">No se pudo autenticar con Firebase</string>
 </resources>
